@@ -8,9 +8,7 @@ This project implements a **machine learning** for detecting fraudulent credit c
 ## Features
 - Data preprocessing and scaling
 - Handling class imbalance
-- Multiple classification models:
-  - Logistic Regression
-  - Random Forest
+- classification models:
   - XGBoost
 - Evaluation metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
 - Predictive pipeline for new transactions
@@ -30,7 +28,7 @@ This project implements a **machine learning** for detecting fraudulent credit c
 
 ## Models used
 - XGBoost : high-performance
-- SMOTE : class balancing
+- scale_pos_weight : class imbalancing
 
 
 ## Evaluation Metrics
